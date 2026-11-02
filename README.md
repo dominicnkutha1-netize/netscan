@@ -41,8 +41,8 @@ collected as futures complete rather than in order, then sorted by port before r
 ## Install and run
 
 ```bash
-git clone https://github.com/dominicnkutha1-netize/Netscan.git
-cd Netscan
+git clone https://github.com/dominicnkutha1-netize/netscan.git
+cd netscan
 pip install -r requirements.txt
 python app.py
 ```
@@ -63,7 +63,7 @@ Open <http://localhost:5000>.
 ## Project structure
 
 ```
-Netscan/
+netscan/
 ├── app.py                 # Flask app: scanning logic + two JSON endpoints
 ├── static/
 │   └── index.html         # the whole UI — styles, layout and fetch calls
