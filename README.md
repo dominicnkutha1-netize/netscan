@@ -13,6 +13,21 @@ hosts, identifies common services, grabs banners, and rates each exposed port by
 > Port scanning systems you don't control is illegal in most jurisdictions, including under
 > South Africa's Cybercrimes Act (2020). The presets make this easy to misuse — don't.
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/screenshots/home.png"><img src="docs/screenshots/home.png" alt="NetScan home screen: target field, port range, quick presets and a terminal panel"></a><br>
+      <sub><b>Start</b> — target, port range and the four presets.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/screenshots/scan-results.png"><img src="docs/screenshots/scan-results.png" alt="NetScan results for 127.0.0.1: 8 open ports, 2 rated medium risk, with a per-port table"></a><br>
+      <sub><b>Results</b> — a real scan of <code>127.0.0.1</code>, 1–10000: 8 open ports, 2 medium risk, 26 s.</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Scanned only loopback, on my own machine. That is the point of the warning above.</sub>
+
 ---
 
 ## Features
